@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-p.jpg" type="image/jpg">
+        
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.jpg" type="image/jpg">
+        <img src="imagens/imagem-g.jpg" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HMTL5</p>
+    <audio controls autoplay loop>
+        <source src="midia/Illusions-anno-domini-beats.ogg" type="audio/ogg">
+        
+    </audio>
+    <p>Se o áudio não reproduzir você pode fazer o download em <a href="midia/Illusions-anno-domini-beats.mp3"> clique aqui para baixar o arquivo mp3</a></p>
+    <!--formatos de áudio MP3 WAV OGG
+    melhor formato e menor é o OGG-->
+</body>
+</html> 

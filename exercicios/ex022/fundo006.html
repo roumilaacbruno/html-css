@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        #container{
+            
+
+            position: relative;
+            height: 96vh;
+            height: 500px;
+            padding: 10px;
+            background-image: linear-gradient(to bottom, yellow, red);
+        }
+        #conteudo{
+
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(5%, 10%);
+
+            height: 200px;
+            width: 300px;
+            background-image: linear-gradient(to bottom, yellow, red);
+            border-radius: 15px;
+            
+        }
+        #container h1{
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 0px;
+            margin: 0px;
+            font-weight: bolder;
+            font-size: 40px;
+        }
+        #container p {
+            color: rgb(0, 0, 0);
+            text-align: justify;
+            margin: 10px;
+        }
+        #conteudo p{
+            color: rgb(0, 0, 0);
+        }
+        #conteudo h2{
+            text-align: center;
+        }
+        #cont{
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-100%, 10%);
+            border-radius: 15px;
+            height: 200px;
+            width: 300px;
+            background-image: linear-gradient(to bottom, yellow, red);
+        }
+        #cont main{
+            background-color: rgba(255, 255, 255, 0.267);
+            width: 290px;
+            height: 169px;
+            border-radius: 23px;
+            margin: -3px 0px 5px 6px;
+            padding-top: 0px;
+        }
+        #cont p{
+            color: black;
+        }
+    </style> 
+</head>
+<body>
+    <section id="container">
+        <h1>Testando</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad tenetur repudiandae cupiditate magni fugiat ipsa sit quas commodi? Placeat ex hic beatae? Magni reiciendis consequuntur nulla officiis odit temporibus omnis!</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad tenetur repudiandae cupiditate magni fugiat ipsa sit quas commodi? Placeat ex hic beatae? Magni reiciendis consequuntur nulla officiis odit temporibus omnis!</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad tenetur repudiandae cupiditate magni fugiat ipsa sit quas commodi? Placeat ex hic beatae? Magni reiciendis consequuntur nulla officiis odit temporibus omnis!</p>
+        <article id="conteudo">
+            
+            <main>
+                <h2>Testando</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde harum dolorum veritatis, odio ipsa modi perferendis laboriosam magni asperiores deserunt nostrum, necessitatibus esse cum ipsam eius aliquam tempora minus iure.</p>
+            </main>
+
+        </article>
+        <article id="cont">
+            <main>
+                <h2>Testando</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde harum dolorum veritatis, odio ipsa modi perferendis laboriosam magni asperiores deserunt nostrum, necessitatibus esse cum ipsam eius aliquam tempora minus iure.</p>
+            </main>
+
+        </article>
+    </section>
+    
+</body>
+</html>
